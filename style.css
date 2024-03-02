@@ -3,3 +3,9 @@ body {
   height: 100vh;
   background-color: black;
 }
+
+h1 {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
