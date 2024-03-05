@@ -2,10 +2,17 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: black;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
   color: white;
   border: 1px solid white;
   background-color: black;
+  width: 95vw;
+  height: 10vh;
+  font-size: 8vh;
+  display: flex;
+  align-items: center;
 }
