@@ -22,3 +22,8 @@ body {
   height: 70%;
   width: 20%;
 }
+
+.content {
+  border: 1px solid white;
+  width: 75%;
+}
