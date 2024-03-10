@@ -2,28 +2,32 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: black;
-  display: block;
-  justify-content: center;
 }
 
 .header {
   color: white;
   border: 1px solid white;
   background-color: black;
-  width: 95vw;
+  width: 90vw;
   height: 10vh;
   font-size: 8vh;
   display: flex;
   align-items: center;
+  
 }
 
+.middle {
+  
+}
 .menu {
   border: 1px solid white;
-  height: 70%;
-  width: 20%;
+  height: 70vh;
+  width: 10vw;
+
 }
 
 .content {
   border: 1px solid white;
-  width: 75%;
+  width: 40vw;
+  height: 70vh;
 }
