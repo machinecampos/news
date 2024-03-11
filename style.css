@@ -13,21 +13,22 @@ body {
   font-size: 8vh;
   display: flex;
   align-items: center;
-  
+  margin: 5vh;
 }
 
 .middle {
-  
+  display: flex;
 }
 .menu {
   border: 1px solid white;
   height: 70vh;
-  width: 10vw;
-
+  width: 20vw;
+  margin: 5vh;
 }
 
 .content {
   border: 1px solid white;
-  width: 40vw;
+  width: 50vw;
   height: 70vh;
+  margin: 5vh;
 }
