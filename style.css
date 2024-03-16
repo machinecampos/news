@@ -23,7 +23,9 @@ body {
   border: 1px solid white;
   height: 70vh;
   width: 20vw;
-  margin: 5vh;
+  margin: 5vh
+  font-size: 1vw;
+  ;
 }
 
 .content {
@@ -34,5 +36,5 @@ body {
 }
 
 ul {
-  color: white;
+  color:;
 }
