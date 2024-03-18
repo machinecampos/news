@@ -24,8 +24,7 @@ body {
   height: 70vh;
   width: 20vw;
   margin: 5vh
-  font-size: 1vw;
-  ;
+l
 }
 
 .content {
@@ -37,4 +36,8 @@ body {
 
 ul {
   color:;
+}
+
+li {
+  font-size: 1%;
 }
