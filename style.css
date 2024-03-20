@@ -23,8 +23,8 @@ body {
   border: 1px solid white;
   height: 70vh;
   width: 20vw;
-  margin: 5vh
-l
+  margin: 5vh;
+  color: white;
 }
 
 .content {
@@ -32,10 +32,6 @@ l
   width: 50vw;
   height: 70vh;
   margin: 5vh;
-}
-
-ul {
-  color:;
 }
 
 li {
