@@ -22,9 +22,11 @@ body {
 .menu {
   border: 1px solid white;
   height: 70vh;
-  width: 20vw;
+  width: 30vw;
   margin: 5vh;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
@@ -39,6 +41,6 @@ li {
 }
 
 .post {
-  font-color: white;
+  color: white;
   font-size: 1%;
 }
