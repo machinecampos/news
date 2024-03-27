@@ -46,6 +46,7 @@ body {
 
 li {
   font-size: 1%;
+  list-style-type: none;
  /* border: 1px solid red;*/
 }
 
