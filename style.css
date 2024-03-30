@@ -63,15 +63,3 @@ a {
  text-decoration: none;
  color: white;
 }
-
-.container {
-  width: 80vw;
-  height: 50vh;
-  background-color: gray;
-}
-
-#news-block-template {
-  width: 80%;
-  height: 40%;
-  border: 1px solid white;
-}
