@@ -5,6 +5,8 @@ let darkmode;
 console.log("We're running!") */
 
 // Variáveis para armazenar elementos HTML
+
+/*
 const container = document.querySelector('.container'); // Container principal das notícias
 const newsBlockTemplate = document.querySelector('#news-block-template').content; // Template HTML para cada bloco de notícia
 
@@ -46,5 +48,5 @@ window.addEventListener('scroll', () => {
     loadNews();
   }
 });
-
+*/
 
