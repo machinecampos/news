@@ -49,4 +49,32 @@ window.addEventListener('scroll', () => {
   }
 });
 */
+document.addEventListener('DOMContentLoaded', function() {
+    const postContainer = document.getElementById('postContainer');
+
+    function createPost(title, content) {
+        const postDiv = document.createElement('div');
+        postDiv.classList.add('post');
+
+        const titleElement = document.createElement('h3');
+        titleElement.textContent = title;
+
+        const contentElement = document.createElement('p');
+        contentElement.textContent = content;
+
+        postDiv.appendChild(titleElement);
+        postDiv.appendChild(contentElement);
+
+        return postDiv;
+    }
+
+    function addNewPost(title, content) {
+        const newPost = createPost(title, content);
+        postContainer.prepend(newPost); // Adiciona o novo post no topo
+        // Adicione qualquer efeito de deslizamento ou rolagem aqui
+    }
+
+    // Exemplo de como usar a função addNewPost:
+    addNewPost('Novo Post', 'Este é um novo post dinâmico.');
+});
 
